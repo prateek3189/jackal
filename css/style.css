@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+main {
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    border-top: 1px solid #FFFFFF;
+    background: #000000;
+}
+
+.console-log {
+    position: fixed;
+    width: 550px;
+    border-left: 1px solid #CCCCCC;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: url("../images/board.png") no-repeat;
+    z-index: 10;
+    background-size: cover;
+    font-size: 20px;
+}
+
+.console-log h4 {
+    border-bottom: 1px solid #CCCCCC;
+    padding: 10px;
+    background-image: url("../images/wood.jpg");
+    color: #282828;
+    display: flex;
+    justify-content: space-between;
+}
+
+.console-log h4 a {
+    color: inherit;
+}
+
+.code-pane {
+    padding: 10px;
+}
+
+sup a {
+    font-size: 12px;
+}
